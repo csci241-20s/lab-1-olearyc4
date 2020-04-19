@@ -1,0 +1,1925 @@
+Script started on 2020-04-12 13:15:40-0700
+olearyc4@linux-07:~$ ls
+Desktop  Documents  Downloads  hex4  Labs  Music  Pictures  Public  Templates  typescript  Videos
+olearyc4@linux-07:~$ exit[K[K[K[Kcd csci [K241
+bash: cd: csci241: No such file or directory
+olearyc4@linux-07:~$ mkdir[Kr cscs241
+olearyc4@linux-07:~$ r cssc[Kc[K[Kcs241/
+
+Command 'r' not found, but can be installed with:
+
+apt install r-cran-littler
+Please ask your administrator.
+
+olearyc4@linux-07:~$ rm cscs241/
+rm: cannot remove 'cscs241/': Is a directory
+olearyc4@linux-07:~$ mkdir cscs[K1[Ki241
+olearyc4@linux-07:~$ cs[Kd csci241/
+olearyc4@linux-07:~/csci241$ git clone https://github.com/csci241-192[Kw-[K/lab-1-olearyc4
+Cloning into 'lab-1-olearyc4'...
+Username for 'https://github.com': olearyc4
+Password for 'https://olearyc4@github.com': 
+remote: Repository not found.
+fatal: repository 'https://github.com/csci241-19w/lab-1-olearyc4/' not found
+olearyc4@linux-07:~/csci241$ git clone https://github.com/csci241-19w/lab-1-olearyc4[C[1P/lab-1-olearyc4[1P/lab-1-olearyc4[1P/lab-1-olearyc42/lab-1-olearyc40/lab-1-olearyc4s/lab-1-olearyc4
+Cloning into 'lab-1-olearyc4'...
+remote: Enumerating objects: 14, done.[K
+remote: Counting objects:   7% (1/14)[Kremote: Counting objects:  14% (2/14)[Kremote: Counting objects:  21% (3/14)[Kremote: Counting objects:  28% (4/14)[Kremote: Counting objects:  35% (5/14)[Kremote: Counting objects:  42% (6/14)[Kremote: Counting objects:  50% (7/14)[Kremote: Counting objects:  57% (8/14)[Kremote: Counting objects:  64% (9/14)[Kremote: Counting objects:  71% (10/14)[Kremote: Counting objects:  78% (11/14)[Kremote: Counting objects:  85% (12/14)[Kremote: Counting objects:  92% (13/14)[Kremote: Counting objects: 100% (14/14)[Kremote: Counting objects: 100% (14/14), done.[K
+remote: Compressing objects:  12% (1/8)[Kremote: Compressing objects:  25% (2/8)[Kremote: Compressing objects:  37% (3/8)[Kremote: Compressing objects:  50% (4/8)[Kremote: Compressing objects:  62% (5/8)[Kremote: Compressing objects:  75% (6/8)[Kremote: Compressing objects:  87% (7/8)[Kremote: Compressing objects: 100% (8/8)[Kremote: Compressing objects: 100% (8/8), done.[K
+remote: Total 14 (delta 2), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:   7% (1/14)   Unpacking objects:  14% (2/14)   Unpacking objects:  21% (3/14)   Unpacking objects:  28% (4/14)   Unpacking objects:  35% (5/14)   Unpacking objects:  42% (6/14)   Unpacking objects:  50% (7/14)   Unpacking objects:  57% (8/14)   Unpacking objects:  64% (9/14)   Unpacking objects:  71% (10/14)   Unpacking objects:  78% (11/14)   Unpacking objects:  85% (12/14)   Unpacking objects:  92% (13/14)   Unpacking objects: 100% (14/14)   Unpacking objects: 100% (14/14), done.
+olearyc4@linux-07:~/csci241$ goi[K[Kit config --global user.name olearyc4
+olearyc4@linux-07:~/csci241$ git conifg[K[K[Kfig global [K[K[K[K[K[K[K--global user.email olearu[Kyv4@wwu.edu
+olearyc4@linux-07:~/csci241$ touch writeuop[K[K[Kup.txt
+olearyc4@linux-07:~/csci241$ git add wrt[Kiteup.txt
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+olearyc4@linux-07:~/csci241$ ls
+lab-1-olearyc4	writeup.txt
+olearyc4@linux-07:~/csci241$ cd lab-1-olearyc4/
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ ls
+build.gradle  settings.gradle  src
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git touch wt[Kriteup.txt
+git: 'touch' is not a git command. See 'git --help'.
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ touch writeup.txt
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git add writeup.txt 
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git commity [K[K -m "a[KAdded empty writeup"
+[master 4368adc] Added empty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git pop[K[Kush
+Username for 'https://github.com': emacs wr	 riteup.txt
+Password for 'https://emacs writeup.txt@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/csci241-20s/lab-1-olearyc4/'
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git pushcommit -m "Added empty writeup"push[K
+Username for 'https://github.com': olearyc4
+Password for 'https://olearyc4@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/csci241-20s/lab-1-olearyc4/'
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git push
+Username for 'https://github.com': olearyc4
+Password for 'https://olearyc4@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 266 bytes | 266.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-olearyc4
+   c318f9e..4368adc  master -> master
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ emacs writeup.txt
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[72d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[71d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[72d[?25lLoading 00debian-vars...done[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/etc/emacs/site-start.d/50a2ps.el (source)...[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[72;59H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[72;58H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[72;60H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[72;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[72;77H[?25ldone[H
+[?12l[?25h[?12;25h[72;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[72;75H[?25ldone[H
+[?12l[?25h[?12;25h[72;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[72;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[72;61H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lfiglet.el (source)...[K[H
+[?12l[?25h[?12;25h[72;56H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[72;70H[?25ldone[H
+[?12l[?25h[?12;25h[72d[?25lSaving file /home/olearyc4/.emacs...[K[H
+[?12l[?25h[?12;25h[72d[?25lWrote /home/olearyc4/.emacs[K[H
+[?12l[?25h[?12;25h[>0c[72d[?25lWrote /home/olearyc4/.emacs[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                                                                                                                                                                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h]11;?\[72d[K[2d[>4;1m[?2004h[72d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[72d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Text Help                                                                                                                                                                                                                                      [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1mwriteup.txt [0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit-master[0m[39;49m[27m[7m  (Text) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[72d[K[2d[?25lC[71;6H[7m**[0m[39;49m[27m[2;2H[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[K[?25lo[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[C[?25lP[?12l[?25h[?12;25h[K[C[?25lO[?12l[?25h[?12;25h[?25l"[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25ly[?12l[?25h[?12;25h[K[K[K[K[K[K[?25l'[?12l[?25h[?12;25h[?25lL[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25ly[?12l[?25h[?12;25h[72;1H[?25l[36mI-search: [39;49m[2;14H[?12l[?25h[?12;25h[71;56H[?25l[7m Isearch) [0m[39;49m[27m[2;14H[?12l[?25h[?12;25h[72;1H[K[2;14H[72;1H[?25lC-x[2;14H[?12l[?25h[?12;25h[72;4H[?25l-[2;14H[?12l[?25h[?12;25h[72;4H[?25l C-x[2;14H[?12l[?25h[?12;25h[72;1H[?25lNo mark set in this buffer[71;56H[7m) --------[0m[39;49m[27m[2;14H[?12l[?25h[?12;25h[72;1H[K[2;14H[72;1H[?25lSaving file /home/olearyc4/csci241/lab-1-olearyc4/writeup.txt...[2;14H[?12l[?25h[?12;25h[72;1H[?25lWrote /home/olearyc4/csci241/lab-1-olearyc4/writeup.txt[K[2;14H[?12l[?25h[?12;25h[71;6H[?25l[7m----F1  [0m[39;49m[27m[7m[1mwriteup.txt [0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit:[0m[39;49m[27m[2;14H[?12l[?25h[?12;25h[72;1H[K[2;14H[72;1H[K[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49molearyc4@linux-07:~/csci241/lab-1-olearyc4$ git add writeup.txt 
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git commmit [K[K[K[K[Kmit -,[Km "Addd[Ked part 1 (names) to writeupo[K[Kp":[K"[K
+[master 9ce93b6] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+)
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ emacs writeup.txt 
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[72d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[71d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[72d[?25lLoading 00debian-vars...done[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/etc/emacs/site-start.d/50a2ps.el (source)...[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[72;59H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[72;58H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[72;60H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[72;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[72;77H[?25ldone[H
+[?12l[?25h[?12;25h[72;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[72;75H[?25ldone[H
+[?12l[?25h[?12;25h[72;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[72;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[72;61H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lfiglet.el (source)...[K[H
+[?12l[?25h[?12;25h[72;56H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[72;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[72d[?25lLoading /etc/emacs/site-start.d/50texlive-lang-english.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                                                                                                                                                                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h]11;?\[72d[K[2d[>4;1m[?2004h[72d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[72d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Text Help                                                                                                                                                                                                                                      [0m[39;49m[27m
+[A
+Conor O'Leary[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mwriteup.txt [0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit-master[0m[39;49m[27m[7m  (Text) ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[72d[K[2;2H[C[C[C[C[C		[C[C[C[C[C[71;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[72d[?25lEnd of buffer[H
+
+[?12l[?25h[?12;25h[72d[K[71;6H[?25l[7m**--F1  [0m[39;49m[27m[7m[1mwriteup.txt [0m[39;49m[27m[7m   All L3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[71;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[?25lH[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lv[?12l[?25h[?12;25h[?25lv[?12l[?25h[?12;25h[?25ly[?12l[?25h[?12;25h[?25l:[?12l[?25h[?12;25h	[?25lC[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lm[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25lc[?12l[?25h[?12;25h[C[?25lB[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lk[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[72;1H[?25lSaving file /home/olearyc4/csci241/lab-1-olearyc4/writeup.txt...[3;19H[?12l[?25h[?12;25h[72;1H[?25lWrote /home/olearyc4/csci241/lab-1-olearyc4/writeup.txt[K[3;19H[?12l[?25h[?12;25h[71;6H[?25l[7m----F1  [0m[39;49m[27m[7m[1mwriteup.txt [0m[39;49m[27m[7m   All L2    [0m[39;49m[27m[7mGit:[0m[39;49m[27m[3;19H[?12l[?25h[?12;25h[72;1H[K[3;19H[72;1H[K[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49molearyc4@linux-07:~/csci241/lab-1-olearyc4$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ giu[Kt add writeup.txt 
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mmodified:   writeup.txt[m
+
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git commit -m "Added hobby section" "t"o" "w"r"i"t"e"u"p"[C
+[master 432f081] Added hobby section to writeup
+ 1 file changed, 1 insertion(+)
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ gu[Kit push
+Username for 'https://github.com': touch username.txt
+Password for 'https://touch username.txt@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/csci241-20s/lab-1-olearyc4/'
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git pushstatuscommit -m "Added hobby section to writeup"status[K[2Ppush
+Username for 'https://github.com': olearyc4
+Password for 'https://olearyc4@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 540 bytes | 270.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-olearyc4
+   4368adc..432f081  master -> master
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ emacs [K[K[K[K[K[Kemacs username.txt
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[72d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[71d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[72d[?25lLoading 00debian-vars...done[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/etc/emacs/site-start.d/50a2ps.el (source)...[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[72;59H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[72;58H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[72;60H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[72;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[72;77H[?25ldone[H
+[?12l[?25h[?12;25h[72;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[72;75H[?25ldone[H
+[?12l[?25h[?12;25h[72;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[72;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[72;61H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lfiglet.el (source)...[K[H
+[?12l[?25h[?12;25h[72;56H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[72;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[72d[?25lLoading /etc/emacs/site-start.d/50texlive-lang-english.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                                                                                                                                                                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h]11;?\[72d[K[2d[>4;1m[?2004h[72d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[72d[?25l(New file)[K[H
+[?12l[?25h[?12;25h[72d[?25l(New file)[K[H[7mFile Edit Options Buffers Tools Text Help                                                                                                                                                                                                                                      [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1musername.txt[0m[39;49m[27m[7m   All L1     (Text) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[72d[K[2d[?25lC[71;6H[7m**[0m[39;49m[27m[2;2H[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[C[?25lO[?12l[?25h[?12;25h[?25l'[?12l[?25h[?12;25h[?25lL[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25ly[?12l[?25h[?12;25h[C[?25l,[?12l[?25h[?12;25h[K[C[?25l,[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25ly[?12l[?25h[?12;25h[?25lc[?12l[?25h[?12;25h[?25l4[?12l[?25h[?12;25h[?25l,[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25ly[?12l[?25h[?12;25h[?25lc[?12l[?25h[?12;25h[?25l4[?12l[?25h[?12;25h[71;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[72d[?25lSaving file /home/olearyc4/csci241/lab-1-olearyc4/username.txt...[H
+
+[?12l[?25h[?12;25h[72d[?25lWrote /home/olearyc4/csci241/lab-1-olearyc4/username.txt[K[H
+
+[?12l[?25h[?12;25h[71;6H[?25l[7m--[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[72d[K[3d[72d[K[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49molearyc4@linux-07:~/csci241/lab-1-olearyc4$ git add username.txt
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git commit
+hint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[?1h=[?2004h[1;72r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[72;1H"~/csci241/lab-1-olearyc4/.git/COMMIT_EDITMSG" 10L, 265C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[34m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch [m[35mmaster[m
+[34m# Your branch is up to date with '[m[35morigin/master[m[34m'.
+#
+# [m[35mChanges to be committed:[m
+[34m#       [m[32mnew file[m[34m: [m[31m  username.txt[m
+[34m#[m
+[1m[34m~                                                                                                                                                                                                                                                                              [12;1H~                                                                                                                                                                                                                                                                              [13;1H~                                                                                                                                                                                                                                                                              [14;1H~                                                                                                                                                                                                                                                                              [15;1H~                                                                                                                                                                                                                                                                              [16;1H~                                                                                                                                                                                                                                                                              [17;1H~                                                                                                                                                                                                                                                                              [18;1H~                                                                                                                                                                                                                                                                              [19;1H~                                                                                                                                                                                                                                                                              [20;1H~                                                                                                                                                                                                                                                                              [21;1H~                                                                                                                                                                                                                                                                              [22;1H~                                                                                                                                                                                                                                                                              [23;1H~                                                                                                                                                                                                                                                                              [24;1H~                                                                                                                                                                                                                                                                              [25;1H~                                                                                                                                                                                                                                                                              [26;1H~                                                                                                                                                                                                                                                                              [27;1H~                                                                                                                                                                                                                                                                              [28;1H~                                                                                                                                                                                                                                                                              [29;1H~                                                                                                                                                                                                                                                                              [30;1H~                                                                                                                                                                                                                                                                              [31;1H~                                                                                                                                                                                                                                                                              [32;1H~                                                                                                                                                                                                                                                                              [33;1H~                                                                                                                                                                                                                                                                              [34;1H~                                                                                                                                                                                                                                                                              [35;1H~                                                                                                                                                                                                                                                                              [36;1H~                                                                                                                                                                                                                                                                              [37;1H~                                                                                                                                                                                                                                                                              [38;1H~                                                                                                                                                                                                                                                                              [39;1H~                                                                                                                                                                                                                                                                              [40;1H~                                                                                                                                                                                                                                                                              [41;1H~                                                                                                                                                                                                                                                                              [42;1H~                                                                                                                                                                                                                                                                              [43;1H~                                                                                                                                                                                                                                                                              [44;1H~                                                                                                                                                                                                                                                                              [45;1H~                                                                                                                                                                                                                                                                              [46;1H~                                                                                                                                                                                                                                                                              [47;1H~                                                                                                                                                                                                                                                                              [48;1H~                                                                                                                                                                                                                                                                              [49;1H~                                                                                                                                                                                                                                                                              [50;1H~                                                                                                                                                                                                                                                                              [51;1H~                                                                                                                                                                                                                                                                              [52;1H~                                                                                                                                                                                                                                                                              [53;1H~                                                                                                                                                                                                                                                                              [54;1H~                                                                                                                                                                                                                                                                              [55;1H~                                                                                                                                                                                                                                                                              [56;1H~                                                                                                                                                                                                                                                                              [57;1H~                                                                                                                                                                                                                                                                              [58;1H~                                                                                                                                                                                                                                                                              [59;1H~                                                                                                                                                                                                                                                                              [60;1H~                                                                                                                                                                                                                                                                              [61;1H~                                                                                                                                                                                                                                                                              [62;1H~                                                                                                                                                                                                                                                                              [63;1H~                                                                                                                                                                                                                                                                              [64;1H~                                                                                                                                                                                                                                                                              [65;1H~                                                                                                                                                                                                                                                                              [66;1H~                                                                                                                                                                                                                                                                              [67;1H~                                                                                                                                                                                                                                                                              [68;1H~                                                                                                                                                                                                                                                                              [69;1H~                                                                                                                                                                                                                                                                              [70;1H~                                                                                                                                                                                                                                                                              [71;1H~                                                                                                                                                                                                                                                                              [m[72;254H1,0-1[9CAll[1;1H[?25h[27m[23m[29m[m[H[2J[?25l[2;1H[1m[36m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch [m[1m[31mmaster[m
+[1m[36m# Your branch is up to date with '[m[1m[31morigin/master[m[1m[36m'.
+#
+# [m[1m[34mChanges to be committed:[m
+[1m[36m#       [m[1m[32mnew file[m[1m[36m: [m[1m[35m  username.txt[m
+[1m[36m#[m
+[1m[34m~                                                                                                                                                                                                                                                                              [12;1H~                                                                                                                                                                                                                                                                              [13;1H~                                                                                                                                                                                                                                                                              [14;1H~                                                                                                                                                                                                                                                                              [15;1H~                                                                                                                                                                                                                                                                              [16;1H~                                                                                                                                                                                                                                                                              [17;1H~                                                                                                                                                                                                                                                                              [18;1H~                                                                                                                                                                                                                                                                              [19;1H~                                                                                                                                                                                                                                                                              [20;1H~                                                                                                                                                                                                                                                                              [21;1H~                                                                                                                                                                                                                                                                              [22;1H~                                                                                                                                                                                                                                                                              [23;1H~                                                                                                                                                                                                                                                                              [24;1H~                                                                                                                                                                                                                                                                              [25;1H~                                                                                                                                                                                                                                                                              [26;1H~                                                                                                                                                                                                                                                                              [27;1H~                                                                                                                                                                                                                                                                              [28;1H~                                                                                                                                                                                                                                                                              [29;1H~                                                                                                                                                                                                                                                                              [30;1H~                                                                                                                                                                                                                                                                              [31;1H~                                                                                                                                                                                                                                                                              [32;1H~                                                                                                                                                                                                                                                                              [33;1H~                                                                                                                                                                                                                                                                              [34;1H~                                                                                                                                                                                                                                                                              [35;1H~                                                                                                                                                                                                                                                                              [36;1H~                                                                                                                                                                                                                                                                              [37;1H~                                                                                                                                                                                                                                                                              [38;1H~                                                                                                                                                                                                                                                                              [39;1H~                                                                                                                                                                                                                                                                              [40;1H~                                                                                                                                                                                                                                                                              [41;1H~                                                                                                                                                                                                                                                                              [42;1H~                                                                                                                                                                                                                                                                              [43;1H~                                                                                                                                                                                                                                                                              [44;1H~                                                                                                                                                                                                                                                                              [45;1H~                                                                                                                                                                                                                                                                              [46;1H~                                                                                                                                                                                                                                                                              [47;1H~                                                                                                                                                                                                                                                                              [48;1H~                                                                                                                                                                                                                                                                              [49;1H~                                                                                                                                                                                                                                                                              [50;1H~                                                                                                                                                                                                                                                                              [51;1H~                                                                                                                                                                                                                                                                              [52;1H~                                                                                                                                                                                                                                                                              [53;1H~                                                                                                                                                                                                                                                                              [54;1H~                                                                                                                                                                                                                                                                              [55;1H~                                                                                                                                                                                                                                                                              [56;1H~                                                                                                                                                                                                                                                                              [57;1H~                                                                                                                                                                                                                                                                              [58;1H~                                                                                                                                                                                                                                                                              [59;1H~                                                                                                                                                                                                                                                                              [60;1H~                                                                                                                                                                                                                                                                              [61;1H~                                                                                                                                                                                                                                                                              [62;1H~                                                                                                                                                                                                                                                                              [63;1H~                                                                                                                                                                                                                                                                              [64;1H~                                                                                                                                                                                                                                                                              [65;1H~                                                                                                                                                                                                                                                                              [66;1H~                                                                                                                                                                                                                                                                              [67;1H~                                                                                                                                                                                                                                                                              [68;1H~                                                                                                                                                                                                                                                                              [69;1H~                                                                                                                                                                                                                                                                              [70;1H~                                                                                                                                                                                                                                                                              [71;1H~                                                                                                                                                                                                                                                                              [m[72;254H1,0-1[9CAll"~/csci241/lab-1-olearyc4/.git/COMMIT_EDITMSG" 10L, 265C[1;1H[?25h[?25l[72;244Ha[1;1H[72;244H [1;1H[72;1H[1m-- INSERT --[m[72;13H[K[72;254H1,1[11CAll[1;1H[?25h[?25l[1m[33md[m[72;256H2[1;2H[?25h[?25l[1m[33md[m[72;256H3[1;3H[?25h[?25l[1m[33me[m[72;256H4[1;4H[?25h[?25l[1m[33md[m[72;256H5[1;5H[?25h[?25l[1;4H[K[72;256H4[1;4H[?25h[?25l[1;3H[K[72;256H3[1;3H[?25h[?25l[1;2H[K[72;256H2[1;2H[?25h[?25l[1;1H[K[72;256H1[1;1H[?25h[?25l[1m[33mA[m[72;256H2[1;2H[?25h[?25l[1m[33md[m[72;256H3[1;3H[?25h[?25l[1m[33md[m[72;256H4[1;4H[?25h[?25l[1m[33me[m[72;256H5[1;5H[?25h[?25l[1m[33md[m[72;256H6[1;6H[?25h[?25l[1m[33m [m[72;256H7[1;7H[?25h[?25l[1m[33mu[m[72;256H8[1;8H[?25h[?25l[1m[33ms[m[72;256H9[1;9H[?25h[?25l[1m[33me[m[72;256H10[1;10H[?25h[?25l[1m[33mr[m[72;257H1[1;11H[?25h[?25l[1m[33mn[m[72;257H2[1;12H[?25h[?25l[1m[33ma[m[72;257H3[1;13H[?25h[?25l[1m[33mm[m[72;257H4[1;14H[?25h[?25l[1m[33me[m[72;257H5[1;15H[?25h[?25l[1m[33m.[m[72;257H6[1;16H[?25h[?25l[1m[33mt[m[72;257H7[1;17H[?25h[?25l[1m[33mx[m[72;257H8[1;18H[?25h[?25l[1m[33mt[m[72;257H9[1;19H[?25h[?25l[2;71r[2;1H[L[1;72r[72;254H[K[72;254H2,1[11CAll[2;1H[?25h[?25l[1;71r[71;1H
+[1;72r[1;1H[1m[33mAdded username.txt[m[71;1H[1m[34m~                                                                                                                                                                                                                                                                              [m[72;254H[K[72;254H1,19[10CAll[1;19H[?25h[?25l[72;4H[1mREPLACE --[m[72;254H[K[72;254H1,19[10CAll[1;19H[?25h[?25l[72;4H[1mINSERTE -[m[72;13H[K[72;254H1,19[10CAll[1;19H[?25h[?25l[2;71r[2;1H[L[1;72r[72;254H[K[72;254H2,1[11CAll[2;1H[?25h[?25l[3;71r[3;1H[L[1;72r[72;254H[K[72;254H3,1[11CAll[3;1H[?25h[?25l[2;71r[71;1H
+[1;72r[71;1H[1m[34m~                                                                                                                                                                                                                                                                              [m[72;254H[K[72;254H2,1[11CAll[2;1H[?25h[?25l[1;71r[71;1H
+[1;72r[1;1H[1m[33mAdded username.txt[m[71;1H[1m[34m~                                                                                                                                                                                                                                                                              [m[72;254H[K[72;254H1,19[10CAll[1;19H[?25h[?25l[72;257H8[1;18H[?25h[?25l[72;257H7[1;17H[?25h[?25l[72;257H6[1;16H[?25h[?25l[72;257H5[1;15H[?25h[?25l[72;257H4[1;14H[?25h[?25l[72;257H3[1;13H[?25h[?25l[72;257H2[1;12H[?25h[?25l[72;257H1[1;11H[?25h[?25l[72;257H0[1;10H[?25h[?25l[72;256H9 [1;9H[?25h[?25l[72;256H8[1;8H[?25h[?25l[72;256H7[1;7H[?25h[?25l[72;256H6[1;6H[?25h[?25l[72;256H5[1;5H[?25h[?25l[72;256H4[1;4H[?25h[?25l[72;256H3[1;3H[?25h[?25l[72;256H2[1;2H[?25h[?25l[72;256H1[1;1H[?25h[?25l[1m[33m"Added username.txt[m[72;256H2[1;2H[?25h[?25l[72;256H3[1;3H[?25h[?25l[72;256H2[1;2H[?25h[?25l[1m[33mAdded username.txt[m[1;19H[K[72;256H1[1;1H[?25h[?25l[72;254H2[2;1H[?25h[?25l[3;71r[3;1H[L[1;72r[2;1H[K[3;1H[1m[36m# Please enter the commit message for your changes. Lines starting[m[72;254H[K[72;254H3,1[11CAll[3;1H[?25h[?25l[2;71r[71;1H
+[1;72r[71;1H[1m[34m~                                                                                                                                                                                                                                                                              [m[72;254H[K[72;254H2,1[11CAll[2;1H[?25h[?25l[72;254H3[3;1H[?25h[?25l[4;71r[4;1H[L[1;72r[3;1H[K[4;1H[1m[36m# with '#' will be ignored, and an empty message aborts the commit.[m[72;254H[K[72;254H4,1[11CAll[4;1H[?25h[?25l[3;71r[71;1H
+[1;72r[71;1H[1m[34m~                                                                                                                                                                                                                                                                              [m[72;254H[K[72;254H3,1[11CAll[3;1H[?25h[?25l[72;254H4[4;1H[?25h[?25l[72;254H5[5;1H[?25h[?25l[72;254H6[6;1H[?25h[?25l[72;254H7[7;1H[?25h[?25l[72;254H8[8;1H[?25h[?25l[72;254H9[9;1H[?25h[?25l[72;254H10,1[10;1H[?25h[?25l[72;254H9,1 [9;1H[?25h[?25l[72;254H8[8;1H[?25h[?25l[72;254H7[7;1H[?25h[?25l[72;254H6[6;1H[?25h[?25l[72;254H5[5;1H[?25h[?25l[72;254H4[4;1H[?25h[?25l[72;254H3[3;1H[?25h[?25l[72;254H2[2;1H[?25h[?25l[72;254H1[1;1H[?25h[?25l[72;256H2[1;2H[?25h[?25l[72;256H3[1;3H[?25h[?25l[72;256H4[1;4H[?25h[?25l[72;256H5[1;5H[?25h[?25l[72;256H6[1;6H[?25h[?25l[72;256H7[1;7H[?25h[?25l[72;256H8[1;8H[?25h[?25l[72;256H9[1;9H[?25h[?25l[72;256H10[1;10H[?25h[?25l[72;257H1[1;11H[?25h[?25l[72;257H2[1;12H[?25h[?25l[72;257H3[1;13H[?25h[?25l[72;257H4[1;14H[?25h[?25l[72;257H5[1;15H[?25h[?25l[72;257H6[1;16H[?25h[?25l[72;257H7[1;17H[?25h[?25l[72;257H8[1;18H[?25h[?25l[72;257H9[1;19H[?25h[?25l[72;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[m[72;254H[K[1;19H[?25h[?25l[72;4H[1mINSERTe --^[m[72;13H[K[72;254H1,19[10CAll[72;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[m[72;254H[K[1;19H[?25h[?25l[72;4H[1mINSERTe --^[m[72;13H[K[72;254H1,19[10CAll[72;254H2[2;19H[?25h[?25l[72;257H8[2;18H[?25h[?25l[72;257H9[2;19H[?25h[?25l[72;254H1[1;19H[?25h[?25l[72;257H [1;1H[?25h[?25l[?25h[?25l[1;71r[1;1H[4M[1;72r[68;1H[1m[34m~                                                                                                                                                                                                                                                                              [69;1H~                                                                                                                                                                                                                                                                              [70;1H~                                                                                                                                                                                                                                                                              [71;1H~                                                                                                                                                                                                                                                                              [m[72;254H[K[72;254H10,1[10CBot[6;1H[?25h[?25l[1;71r[1;1H[L[1;72r[1;1H[1m[36m#[m[72;254H[K[72;254H9,1[11CBot[6;1H[?25h[?25l[1;71r[1;1H[L[1;72r[1;1H[1m[36m# with '#' will be ignored, and an empty message aborts the commit.[m[72;254H[K[72;254H8,1[11CBot[6;1H[?25h[?25l[1;71r[1;1H[L[1;72r[1;1H[1m[36m# Please enter the commit message for your changes. Lines starting[m[72;254H[K[72;254H7,1[11CBot[6;1H[?25h[?25l[1;71r[1;1H[L[1;72r[1;1H[1m[33mAdded username.txt[m[72;254H[K[72;254H6,1[11CAll[6;1H[?25h[?25l[72;254H5[5;1H[?25h[?25l[72;254H4[4;1H[?25h[?25l[72;254H3[3;1H[?25h[?25l[72;254H2[2;1H[?25h[?25l[72;254H1[1;1H[?25h[?25l[1m[33m        Added username.txt[m[72;256H2-9[1;9H[?25h[?25l[1m[33mAdded username.txt[m[1;19H[K[72;256H1  [1;1H[?25h[?25l[72;256H2[1;2H[?25h[?25l[72;256H3[1;3H[?25h[?25l[72;256H4[1;4H[?25h[?25l[72;256H5[1;5H[?25h[?25l[72;256H6[1;6H[?25h[?25l[72;256H7[1;7H[?25h[?25l[72;256H8[1;8H[?25h[?25l[72;256H9[1;9H[?25h[?25l[72;256H10[1;10H[?25h[?25l[72;257H1[1;11H[?25h[?25l[72;257H2[1;12H[?25h[?25l[72;257H3[1;13H[?25h[?25l[72;257H4[1;14H[?25h[?25l[72;257H5[1;15H[?25h[?25l[72;257H6[1;16H[?25h[?25l[72;257H7[1;17H[?25h[?25l[72;257H8[1;18H[?25h[?25l[72;257H9[1;19H[?25h[?25l[1m[33m [m[72;256H20[1;20H[?25h[?25l[1m[33m [m[72;257H1[1;21H[?25h[?25l[1m[33m [m[72;257H2[1;22H[?25h[?25l[1m[33m [m[72;257H3[1;23H[?25h[?25l[1m[33m [m[72;257H4[1;24H[?25h[?25l[1m[33m [m[72;257H5[1;25H[?25h[?25l[1m[33m [m[72;257H6[1;26H[?25h[?25l[1m[33m [m[72;257H7[1;27H[?25h[?25l[1m[33m [m[72;257H8[1;28H[?25h[?25l[1m[33m [m[72;257H9[1;29H[?25h[?25l[1m[33m [m[72;256H30[1;30H[?25h[?25l[1m[33m [m[72;257H1[1;31H[?25h[?25l[1m[33m [m[72;257H2[1;32H[?25h[?25l[1m[33m [m[72;257H3[1;33H[?25h[?25l[1m[33m [m[72;257H4[1;34H[?25h[?25l[1m[33m [m[72;257H5[1;35H[?25h[?25l[1m[33m [m[72;257H6[1;36H[?25h[?25l[1m[33m [m[72;257H7[1;37H[?25h[?25l[1m[33m [m[72;257H8[1;38H[?25h[?25l[1m[33m [m[72;257H9[1;39H[?25h[?25l[1m[33m [m[72;256H40[1;40H[?25h[?25l[1;39H[K[72;256H39[1;39H[?25h[?25l[1;36H[K[72;257H6[1;36H[?25h[?25l[1;35H[K[72;257H5[1;35H[?25h[?25l[1;34H[K[72;257H4[1;34H[?25h[?25l[1;33H[K[72;257H3[1;33H[?25h[?25l[1;32H[K[72;257H2[1;32H[?25h[?25l[1;31H[K[72;257H1[1;31H[?25h[?25l[1;30H[K[72;257H0[1;30H[?25h[?25l[1;29H[K[72;256H29[1;29H[?25h[?25l[1;28H[K[72;257H8[1;28H[?25h[?25l[1;27H[K[72;257H7[1;27H[?25h[?25l[1;26H[K[72;257H6[1;26H[?25h[?25l[1;25H[K[72;257H5[1;25H[?25h[?25l[1;24H[K[72;257H4[1;24H[?25h[?25l[1;23H[K[72;257H3[1;23H[?25h[?25l[1;22H[K[72;257H2[1;22H[?25h[?25l[1;21H[K[72;257H1[1;21H[?25h[?25l[1;20H[K[72;257H0[1;20H[?25h[?25l[1;19H[K[72;256H19[1;19H[?25h[?25l[72;4H[1m^X mode (^]^D^E^F^I^K^L^N^O^Ps^U^V^Y)[m[72;254H[K[1;19H[?25h[?25l[72;4H[1mINSERTe --^[m[72;13H[K[72;254H1,19[10CAll[72;1H[K[72;254H1,18[10CAll[1;18H[?25h[?25l[72;244H^X[1;18H[72;244H  [1;18H[?25h[?25l[72;244H^X[1;18H[72;244H  [1;18H[?25h[?25l[72;244H~@k[1;18H[72;244H   [1;18H[?25h[?25l[72;244H~@ý[1;18H[72;244H   [2;1H[72;254H2,1 [2;1H[?25h[?25l[72;244H~@k[2;1H[72;244H   [2;2H[72;256H2[2;2H[?25h[?25l[72;244H~@k[2;2H[72;244H   [1;2H[72;254H1[1;2H[?25h[?25l[72;244H~@k[1;2H[72;244H   [1;1H[72;256H1[1;1H[?25h[?25l[72;244H~@k[1;1H[72;244H   [2;1H[72;254H2[2;1H[?25h[?25l[72;244H~@k[2;1H[72;244H   [2;2H[72;256H2[2;2H[?25h[?25l[72;244H~@k[2;2H[72;244H   [1;2H[72;254H1[1;2H[?25h[?25l[72;244H~@k[1;2H[72;244H   [1;1H[72;256H1[1;1H[?25h[?25l[72;244H~@k[1;1H[72;244H   [2;1H[72;254H2[2;1H[?25h[?25l[72;244H~@k[2;1H[72;244H   [2;2H[72;256H2[2;2H[?25h[?25l[72;244H~@k[2;2H[72;244H   [1;2H[72;254H1[1;2H[?25h[?25l[72;244H~@k[1;2H[72;244H   [1;1H[72;256H1[1;1H[?25h[?25l[72;244H~@k[1;1H[72;244H   [2;1H[72;254H2[2;1H[?25h[?25l[72;244H~@k[2;1H[72;244H   [2;2H[72;256H2[2;2H[?25h[?25l[72;244H~@k[2;2H[72;244H   [1;2H[72;254H1[1;2H[?25h[?25l[72;244H~@k[1;2H[72;244H   [1;1H[72;256H1[1;1H[?25h[?25l[72;244H~@k[1;1H[72;244H   [2;1H[72;254H2[2;1H[?25h[?25l[72;244H~@k[2;1H[72;244H   [2;2H[72;256H2[2;2H[?25h[?25l[72;244H~@k[2;2H[72;244H   [1;2H[72;254H1[1;2H[?25h[?25l[72;244H~@k[1;2H[72;244H   [1;1H[72;256H1[1;1H[?25h[?25l[72;244H~@k[1;1H[72;244H   [2;1H[72;254H2[2;1H[?25h[?25l[72;244H~@k[2;1H[72;244H   [2;2H[72;256H2[2;2H[?25h[?25l[72;244H~@k[2;2H[72;244H   [1;2H[72;254H1[1;2H[?25h[?25l[72;244H~@k[1;2H[72;244H   [1;1H[72;256H1[1;1H[?25h[?25l[72;244H~@k[1;1H[72;244H   [2;1H[72;254H2[2;1H[?25h[?25l[72;244H~@k[2;1H[72;244H   [2;2H[72;256H2[2;2H[?25h[?25l[72;244H~@k[2;2H[72;244H   [1;2H[72;254H1[1;2H[?25h[?25l[72;244H~@k[1;2H[72;244H   [1;1H[72;256H1[1;1H[?25h[?25l[72;244H~@k[1;1H[72;244H   [2;1H[72;254H2[2;1H[?25h[?25l[72;244H~@k[2;1H[72;244H   [2;2H[72;256H2[2;2H[?25h[?25l[72;244H~@k[2;2H[72;Script started on 2020-04-12 13:57:11-0700
+olearyc4@linux-07:~$ cd csci241/
+olearyc4@linux-07:~/csci241$ ls
+lab-1-olearyc4	writeup.txt
+olearyc4@linux-07:~/csci241$ cs lab-1-olearyc4/
+
+Command 'cs' not found, but can be installed with:
+
+apt install csound
+Please ask your administrator.
+
+olearyc4@linux-07:~/csci241$ cd lab-1-olearyc4/
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ ls
+build.gradle  settings.gradle  src  username.txt  writeup.txt
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git a[Kstaty[Kus
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	[32mnew file:   username.txt[m
+
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git commit -m "added usertname.txt"[C[1P[1@A
+[master 08f3dd0] Added usertname.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 username.txt
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git push
+Username for 'https://github.com': olearyc4
+Password for 'https://olearyc4@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 295 bytes | 295.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-olearyc4
+   432f081..08f3dd0  master -> master
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ g[Ktouch test.trxt[K[K[Kxt
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git reset
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ ls
+build.gradle  settings.gradle  src  test.txt  username.txt  writeup.txt
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git mv
+usage: git mv [<options>] <source>... <destination>
+
+    -v, --verbose         be verbose
+    -n, --dry-run         dry run
+    -f, --force           force move/rename even if target exists
+    -k                    skip move/rename errors
+
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git mv test.txt newtest.txt
+fatal: not under version control, source=test.txt, destination=newtest.txt
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git blame
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --progress            Force progress reporting
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --indent-heuristic    Use an experimental heuristic to improve diffs
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git log
+[?1h=[33mcommit 08f3dd090cc9bad49c58e897dd1de11d5f7cc9a1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: olearyc4 <olearyv4@wwu.edu>[m
+Date:   Sun Apr 12 13:58:10 2020 -0700[m
+[m
+    Added usertname.txt[m
+[m
+[33mcommit 432f0814b5414cbf7c38d56b83e6ca6e44f5f2be[m[m
+Author: olearyc4 <olearyv4@wwu.edu>[m
+Date:   Sun Apr 12 13:43:42 2020 -0700[m
+[m
+    Added hobby section to writeup[m
+[m
+[33mcommit 9ce93b6e257fc9a3e4984d6b15f70f91fe050e8e[m[m
+Author: olearyc4 <olearyv4@wwu.edu>[m
+Date:   Sun Apr 12 13:42:11 2020 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 4368adcd23b1e5d87715fbc3376dd726aac3c073[m[m
+Author: olearyc4 <olearyv4@wwu.edu>[m
+Date:   Sun Apr 12 13:32:00 2020 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit c318f9e2f1ea9f27680aaa3f39729b17fce982d6[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Sun Apr 12 10:53:19 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit 98b513527df236f461c84955a693aab56668dfff[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Sun Apr 12 10:53:18 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit 9eaad12fe2f2ed8c9e5f59b51f000f753b3b133e[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Sun Apr 12 10:53:17 2020 -0700[m
+[m
+    Initial commit[m
+[K[?1l>olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git f[Kdiff
+[?1h=[K[?1l>olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git diff writeup,[K.txt
+[?1h=[K[?1l>olearyc4@linux-07:~/csci241/lab-1-olearyc4$    [K[K[K  \[K[K[K  [K[K  [K[Kgit checkout -question3[K[K[K[K[K[K[K[K[Kb question3
+Switched to a new branch 'question3'
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ emacs writeup.txt 
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[72d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[71d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[72d[?25lLoading 00debian-vars...done[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/etc/emacs/site-start.d/50a2ps.el (source)...[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[72;59H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[72;58H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[72;60H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[72;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[72;77H[?25ldone[H
+[?12l[?25h[?12;25h[72;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[72;75H[?25ldone[H
+[?12l[?25h[?12;25h[72;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[72;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[72;61H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lfiglet.el (source)...[K[H
+[?12l[?25h[?12;25h[72;56H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[72;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[72d[?25lLoading /etc/emacs/site-start.d/50texlive-lang-english.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                                                                                                                                                                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h]11;?\[72d[K[2d[>4;1m[?2004h[72d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[72d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Text Help                                                                                                                                                                                                                                      [0m[39;49m[27m
+[A
+Conor O'Leary[K
+Hovvy: Comic Books[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mwriteup.txt [0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit-question3[0m[39;49m[27m[7m  (Text) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[72d[K[71;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[71;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[72d[?25lEnd of buffer[4;1H[?12l[?25h[?12;25h[72d[K[4d[?25lF[71;6H[7m**[0m[39;49m[27m[4;2H[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25lv[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25lt[?12l[?25h[?12;25h[?25le[?12l[?25h[?12;25h[C[?25ls[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[?25lg[?12l[?25h[?12;25h[?25l:[?12l[?25h[?12;25h	[?25lB[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25lr[?12l[?25h[?12;25h[?25ly[?12l[?25h[?12;25h	[?25lS[?12l[?25h[?12;25h[?25lu[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[C[?25lb[?12l[?25h[?12;25h[?25ly[?12l[?25h[?12;25h[C[?25lJ[?12l[?25h[?12;25h[?25lo[?12l[?25h[?12;25h[?25lh[?12l[?25h[?12;25h[?25ln[?12l[?25h[?12;25h[C[?25lW[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[?25ll[?12l[?25h[?12;25h[?25li[?12l[?25h[?12;25h[?25la[?12l[?25h[?12;25h[?25lm[?12l[?25h[?12;25h[?25ls[?12l[?25h[?12;25h[72;1H[?25lSaving file /home/olearyc4/csci241/lab-1-olearyc4/writeup.txt...[4;44H[?12l[?25h[?12;25h[72;1H[?25lWrote /home/olearyc4/csci241/lab-1-olearyc4/writeup.txt[K[4;44H[?12l[?25h[?12;25h[71;6H[?25l[7m----F1  [0m[39;49m[27m[7m[1mwriteup.txt [0m[39;49m[27m[7m   All L3    [0m[39;49m[27m[7mGit:[0m[39;49m[27m[4;44H[?12l[?25h[?12;25h[72;1H[K[4;44H[72;1H[K[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49molearyc4@linux-07:~/csci241/lab-1-olearyc4$ git add writeup.txt 
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git commit -b[Km "added Question2[K3[C[1Puestion3auestion3[1Puestion3question3[C[C[1P[1@A[C[C[C[C[C[C[C[C[C[C[C[C[C[C"
+[question3 720ef20] Added question3
+ 1 file changed, 1 insertion(+)
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git   [K[Kcheckout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git merge question3
+Updating 08f3dd0..720ef20
+Fast-forward
+ writeup.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ giit [K[K[Kt push
+Username for 'https://github.com': olearyc4
+Password for 'https://olearyc4@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 326 bytes | 326.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-olearyc4
+   08f3dd0..720ef20  master -> master
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git branch -d question3
+Deleted branch question3 (was 720ef20).
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ gradle buil;d[K[Kd
+
+Welcome to Gradle 6.1!
+
+Here are the highlights of this release:
+ - Dependency cache is relocatable
+ - Configurable compilation order between Groovy, Java & Scala
+ - New sample projects in Gradle's documentation
+
+For more details see https://docs.gradle.org/6.1/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A> IDLE[0K[6D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [28ms][m[38D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [128ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [228ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [328ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [428ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [528ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [628ms][m[39D[1B[1m> Evaluating settings > Compiling /home/olearyc4/csci241/lab-1-olearyc4/settings.gradle into local compilation cache[m[116D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [728ms][m[39D[1B[1m> Evaluating settings > Compiling /home/olearyc4/csci241/lab-1-olearyc4/settings.gradle into local compilation cache > Compiling settings file '/home/olearyc4/csci241/lab-1-olearyc4/settings.gradle' to cross build script cache[m[226D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [828ms][m[39D[1B[1m> Evaluating settings[m[0K[21D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [928ms][m[0K[38D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [1s][m[0K[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [1s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [2s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[1A[1m> :compileJava > Resolve dependencies of :compileClasspath > guava-26.0-jre.pom[m[79D[1B[1A[1m> :compileJava > Resolve dependencies of :compileClasspath[m[0K[58D[1B
+
+
+
+[5A[1m> :compileJava > Resolve dependencies of :compileClasspath > jsr305-3.0.2.pom[m[77D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > error_prone_annotations-2.1.3.pom[m[94D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > animal-sniffer-annotations-1.14.pom[m[96D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > checker-qual-2.5.2.pom[m[83D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > oss-parent-7.pom[m[77D[1B[6A[1m<[0;1m-------------> 0% EXECUTING [3s][m[33D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > error_prone_parent-2.1.3.pom[m[89D[1B> IDLE[0K[6D[1B[2A[1m> :compileJava > Resolve dependencies of :compileClasspath[m[0K[58D[2B[4A[1m> :compileJava > Resolve files of :compileClasspath > checker-qual-2.5.2.jar > 123 KB/188 KB downloaded[m[103D[1B[1m> :compileJava > Resolve files of :compileClasspath > guava-26.0-jre.jar[m[72D[1B[1m> :compileJava > Resolve files of :compileClasspath > animal-sniffer-annotations-1.14.jar[m[89D[2B[4A> IDLE[0K[6D[1B[1m> :compileJava > Resolve files of :compileClasspath > guava-26.0-jre.jar > 1.55 MB/2.61 MB downloaded[m[101D[1B> IDLE[0K[6D[2B[3A[1m> :compileJava > Resolve files of :compileClasspath[m[0K[51D[3B[3A[1m> :compileJava[m[0K[14D[3B[6A[1m<[0;1m-------------> 0% EXECUTING [4s][m[33D[6B[6A[1m<[0;1m-------------> 0% EXECUTING [5s][m[33D[6B[6A[1m<[0;1m-------------> 0% EXECUTING [6s][m[33D[6B[6A[1m<[0;1m-------------> 0% EXECUTING [7s][m[33D[6B[6A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [7s][m[34D[3B[1m> :startScripts[m[15D[3B[6A[1m<[0;32;1m====[0;39;1m---------> 35% EXECUTING [7s][m[34D[3B[1m> :distTar[m[0K[10D[3B[6A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [7s][m[34D[3B[1m> :distZip[m[10D[3B[6A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 9s
+5 actionable tasks: 5 executed
+[3B[0K
+[0K
+[0K
+[6A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B> IDLE[6D[1B[1m> :distZip[m[10D[1B> IDLE[6D[1B> IDLE[6D[1B[6A[2K[1B[2K[1B[2K[1B[2K[1B[2K[1B[2K[5A[0m[?12l[?25holearyc4@linux-07:~/csci241/lab-1-olearyc4$   [K[Kls
+build  build.gradle  gradle  settings.gradle  src  test.txt  username.txt  writeup.txt
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ cd src
+olearyc4@linux-07:~/csci241/lab-1-olearyc4/src$ cd main
+olearyc4@linux-07:~/csci241/lab-1-olearyc4/src/main$ cd Java
+bash: cd: Java: No such file or directory
+olearyc4@linux-07:~/csci241/lab-1-olearyc4/src/main$ ls
+java
+olearyc4@linux-07:~/csci241/lab-1-olearyc4/src/main$ cd java
+olearyc4@linux-07:~/csci241/lab-1-olearyc4/src/main/java$ cd labn[K1
+olearyc4@linux-07:~/csci241/lab-1-olearyc4/src/main/java/lab1$ emacs Hello.java 
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[72d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[71d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[72d[?25lLoading 00debian-vars...done[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/etc/emacs/site-start.d/50a2ps.el (source)...[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[72;59H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[72;58H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[72;60H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[72;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[72;77H[?25ldone[H
+[?12l[?25h[?12;25h[72;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[72;75H[?25ldone[H
+[?12l[?25h[?12;25h[72;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[72;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[72;61H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lfiglet.el (source)...[K[H
+[?12l[?25h[?12;25h[72;56H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[72;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[72d[?25lLoading /etc/emacs/site-start.d/50texlive-lang-english.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                                                                                                                                                                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h]11;?\[72d[K[2d[>4;1m[?2004h[72d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[72d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Java Help                                                                                                                                                                                                                                      [0m[39;49m[27m
+[A
+[1m[36mpackage[0m[39;49m [35mlab1[39;49m;[K
+[K
+[1m[36mpublic[0m[39;49m [1m[36mclass[0m[39;49m [32mHello[39;49m {[K
+  [1m[36mpublic[0m[39;49m [1m[36mstatic[0m[39;49m [32mvoid[39;49m [1m[34mmain[0m[39;49m([32mString[39;49m[] [33margs[39;49m) {[K
+    System.out.println([32m"Hello, world!"[39;49m);[K
+  }[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mHello.java  [0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit-master[0m[39;49m[27m[7m  (Java/l Abbrev) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[72d[K[71;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[71;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[71;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[71;34H[?25l[7m5[0m[39;49m[27m[6;36H[?12l[?25h[?12;25h[71;34H[?25l[7m6[0m[39;49m[27m[7;4H[?12l[?25h[?12;25h[71;34H[?25l[7m7[0m[39;49m[27m[8;1H[?12l[?25h[?12;25h[71;34H[?25l[7m6[0m[39;49m[27m[7;4H[?12l[?25h[?12;25h[71;34H[?25l[7m5[0m[39;49m[27m[6;4H[?12l[?25h[?12;25h[71;34H[?25l[7m4[0m[39;49m[27m[5;3H[?12l[?25h[?12;25h[71;34H[?25l[7m3[0m[39;49m[27m[4;21H[?12l[?25h[?12;25h[71;34H[?25l[7m4[0m[39;49m[27m[5;21H[?12l[?25h[?12;25h[71;34H[?25l[7m5[0m[39;49m[27m[6;21H[?12l[?25h[?12;25h[C[C		[C[C[C[C[C[C		[C[C[C[C[C[?25l[32m"[39;49m);[K[71;6H[7m**[0m[39;49m[27m[6;37H[?12l[?25h[?12;25h[?25l[32m"[39;49m);[K[?12l[?25h[?12;25h[?25l[32m"[39;49m);[K[?12l[?25h[?12;25h[?25l[32m"[39;49m);[K[?12l[?25h[?12;25h[?25l[32m"[39;49m);[K[?12l[?25h[?12;25h[?25l[32m"[39;49m);[K[?12l[?25h[?12;25h	[6;5H[2@[6;35H[?25l,);[?12l[?25h[?12;25h[?25la);[?12l[?25h[?12;25h[?25lr);[?12l[?25h[?12;25h[?25lg);[?12l[?25h[?12;25h[?25ls);[?12l[?25h[?12;25h[72;1H[?25lSaving file /home/olearyc4/csci241/lab-1-olearyc4/src/main/java/lab1/Hello.java...[6;40H[?12l[?25h[?12;25h[72;1H[?25lWrote /home/olearyc4/csci241/lab-1-olearyc4/src/main/java/lab1/Hello.java[K[6;40H[?12l[?25h[?12;25h[71;6H[?25l[7m----F1  [0m[39;49m[27m[7m[1mHello.java  [0m[39;49m[27m[7m   All L5    [0m[39;49m[27m[7mGit:[0m[39;49m[27m[6;40H[?12l[?25h[?12;25h[72;1H[K[6;40H[72;1H[K[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49molearyc4@linux-07:~/csci241/lab-1-olearyc4/src/main/java/lab1$ gradel run --args="241
+> gradel run --args="241[1P[1P[1@l[1@e
+
+Command 'gradel' not found, did you mean:
+
+  command 'gradle' from deb gradle
+
+Try: apt install <deb name>
+
+olearyc4@linux-07:~/csci241/lab-1-olearyc4/src/main/java/lab1$ cd ..
+olearyc4@linux-07:~/csci241/lab-1-olearyc4/src/main/java$ cd..
+cd..: command not found
+olearyc4@linux-07:~/csci241/lab-1-olearyc4/src/main/java$ cd ..
+olearyc4@linux-07:~/csci241/lab-1-olearyc4/src/main$ cd ..
+olearyc4@linux-07:~/csci241/lab-1-olearyc4/src$ cd ..
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ fgra[K[K[K[Kf[Kgradle run --args="241"
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [9ms][m[37D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [109ms][m[0K[36D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath[m[58D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [209ms][m[36D[1B[1m> :compileJava[m[0K[14D[1B[2A[0K
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m
+/home/olearyc4/csci241/lab-1-olearyc4/src/main/java/lab1/Hello.java:5: error: no suitable method found for println(String,String[])
+      System.out.println("Hello, ",args);
+                ^
+    method PrintStream.println() is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(boolean) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(char) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(int) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(long) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(float) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(double) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(char[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(String) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(Object) is not applicable
+      (actual and formal argument lists differ in length)
+1 error
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler error output for details.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 745ms
+1 actionable task: 1 executed
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25holearyc4@linux-07:~/csci241/lab-1-olearyc4$ emacs srs[Kc/main/java/lab1/Hello.java 
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[72d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[71d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[72d[?25lLoading 00debian-vars...done[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/etc/emacs/site-start.d/50a2ps.el (source)...[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[72;59H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[72;58H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[72;60H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[72;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[72;77H[?25ldone[H
+[?12l[?25h[?12;25h[72;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[72;75H[?25ldone[H
+[?12l[?25h[?12;25h[72;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[72;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[72;61H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lfiglet.el (source)...[K[H
+[?12l[?25h[?12;25h[72;56H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[72;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[72d[?25lLoading /etc/emacs/site-start.d/50texlive-lang-english.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                                                                                                                                                                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h]11;?\[72d[K[2d[>4;1m[?2004h[72d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[72d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Java Help                                                                                                                                                                                                                                      [0m[39;49m[27m
+[A
+[1m[36mpackage[0m[39;49m [35mlab1[39;49m;[K
+[K
+[1m[36mpublic[0m[39;49m [1m[36mclass[0m[39;49m [32mHello[39;49m {[K
+  [1m[36mpublic[0m[39;49m [1m[36mstatic[0m[39;49m [32mvoid[39;49m [1m[34mmain[0m[39;49m([32mString[39;49m[] [33margs[39;49m) {[K
+      System.out.println([32m"Hello, "[39;49m,args);[K
+  }[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mHello.java  [0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit:master[0m[39;49m[27m[7m  (Java/l Abbrev) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[72d[K[71;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[71;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C	[71;34H[?25l[7m4[0m[39;49m[27m[5;16H[?12l[?25h[?12;25h[71;34H[?25l[7m5[0m[39;49m[27m[6;16H[?12l[?25h[?12;25h	[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C	[?25l[);[71;6H[7m**[0m[39;49m[27m[6;41H[?12l[?25h[?12;25h[?25l0);[?12l[?25h[?12;25h[?25l[46m[[39;49m0]);[?12l[?25h[?12;25h[?25l[[C[C[?12l[?25h[?12;25h[C[C[71;34H[?25l[7m6[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[72d[?25lSaving file /home/olearyc4/csci241/lab-1-olearyc4/src/main/java/lab1/Hello.java...[7;1H[?12l[?25h[?12;25h[72d[?25lWrote /home/olearyc4/csci241/lab-1-olearyc4/src/main/java/lab1/Hello.java[K[7;1H[?12l[?25h[?12;25h[71;6H[?25l[7m--[0m[39;49m[27m[7;1H[?12l[?25h[?12;25h[72d[K[7d[72d[K[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49molearyc4@linux-07:~/csci241/lab-1-olearyc4$ emacs src/main/java/lab1/Hello.java [13Pgradle run --args="241"
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [12ms][m[38D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [112ms][m[0K[36D[1B[1m> :compileJava[m[0K[14D[1B[2A[0K
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m
+/home/olearyc4/csci241/lab-1-olearyc4/src/main/java/lab1/Hello.java:5: error: no suitable method found for println(String,String)
+      System.out.println("Hello, ",args[0]);
+                ^
+    method PrintStream.println() is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(boolean) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(char) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(int) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(long) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(float) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(double) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(char[]) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(String) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.println(Object) is not applicable
+      (actual and formal argument lists differ in length)
+1 error
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler error output for details.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 628ms
+1 actionable task: 1 executed
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25holearyc4@linux-07:~/csci241/lab-1-olearyc4$ gradle run --args="241"emacs src/main/java/lab1/Hello.java 
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[72d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[71d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[72d[?25lLoading 00debian-vars...done[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/etc/emacs/site-start.d/50a2ps.el (source)...[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[72;59H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[72;58H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[72;60H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[72;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[72;77H[?25ldone[H
+[?12l[?25h[?12;25h[72;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[72;75H[?25ldone[H
+[?12l[?25h[?12;25h[72;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[72;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[72;61H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lfiglet.el (source)...[K[H
+[?12l[?25h[?12;25h[72;56H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[72;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[72d[?25lLoading /etc/emacs/site-start.d/50texlive-lang-english.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                                                                                                                                                                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h]11;?\[72d[K[2d[>4;1m[?2004h[72d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[72d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Java Help                                                                                                                                                                                                                                      [0m[39;49m[27m
+[A
+[1m[36mpackage[0m[39;49m [35mlab1[39;49m;[K
+[K
+[1m[36mpublic[0m[39;49m [1m[36mclass[0m[39;49m [32mHello[39;49m {[K
+  [1m[36mpublic[0m[39;49m [1m[36mstatic[0m[39;49m [32mvoid[39;49m [1m[34mmain[0m[39;49m([32mString[39;49m[] [33margs[39;49m) {[K
+      System.out.println([32m"Hello, "[39;49m,args[0]);[K
+  }[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mHello.java  [0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit:master[0m[39;49m[27m[7m  (Java/l Abbrev) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[72d[K[71;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[71;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[71;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C	[71;34H[?25l[7m5[0m[39;49m[27m[6;24H[?12l[?25h[?12;25h	[C[C[C[C[C[C		[C[C[C[C[?25l[1P[71;6H[7m**[0m[39;49m[27m[6;35H[?12l[?25h[?12;25h[72;1H[?25lSaving file /home/olearyc4/csci241/lab-1-olearyc4/src/main/java/lab1/Hello.java...[6;35H[?12l[?25h[?12;25h[72;1H[?25lWrote /home/olearyc4/csci241/lab-1-olearyc4/src/main/java/lab1/Hello.java[K[6;35H[?12l[?25h[?12;25h[71;6H[?25l[7m--[0m[39;49m[27m[6;35H[?12l[?25h[?12;25h[72;1H[K[6;35H[72;1H[K[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49molearyc4@linux-07:~/csci241/lab-1-olearyc4$ emacs src/main/java/lab1/Hello.java [13Pgradle run --args="241"
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [15ms][m[38D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [115ms][m[0K[36D[1B[1m> :compileJava[m[0K[14D[1B[2A[0K
+[31;1m> Task :compileJava[0;39m[31m FAILED[39m
+/home/olearyc4/csci241/lab-1-olearyc4/src/main/java/lab1/Hello.java:5: error: ')' expected
+      System.out.println("Hello, "args[0]);
+                                  ^
+/home/olearyc4/csci241/lab-1-olearyc4/src/main/java/lab1/Hello.java:5: error: not a statement
+      System.out.println("Hello, "args[0]);
+                                      ^
+/home/olearyc4/csci241/lab-1-olearyc4/src/main/java/lab1/Hello.java:5: error: ';' expected
+      System.out.println("Hello, "args[0]);
+                                         ^
+3 errors
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+[33m> [39mCompilation failed; see the compiler error output for details.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 607ms
+1 actionable task: 1 executed
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava[m[14D[1B[2A[2K[1B[2K[1A[0m[?12l[?25holearyc4@linux-07:~/csci241/lab-1-olearyc4$ gradle run --args="241"emacs src/main/java/lab1/Hello.java 
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[72d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[71d[?25l[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Fundamental) --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[72d[?25lLoading 00debian-vars...done[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/etc/emacs/site-start.d/50a2ps.el (source)...[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[72;59H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[72;58H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[72;60H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[72;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[72;77H[?25ldone[H
+[?12l[?25h[?12;25h[72;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[72;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[72;75H[?25ldone[H
+[?12l[?25h[?12;25h[72;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[72;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[72;61H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lfiglet.el (source)...[K[H
+[?12l[?25h[?12;25h[72;56H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[72;54H[?25ldone[H
+[?12l[?25h[?12;25h[72;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[72;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[72d[?25lLoading /etc/emacs/site-start.d/50texlive-lang-english.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                                                                                                                                                                                                          [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UUU:----F1  [0m[39;49m[27m[7m[1m*scratch*   [0m[39;49m[27m[7m   All L1     (Lisp Interaction) ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h]11;?\[72d[K[2d[>4;1m[?2004h[72d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[72d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Java Help                                                                                                                                                                                                                                      [0m[39;49m[27m
+[A
+[1m[36mpackage[0m[39;49m [35mlab1[39;49m;[K
+[K
+[1m[36mpublic[0m[39;49m [1m[36mclass[0m[39;49m [32mHello[39;49m {[K
+  [1m[36mpublic[0m[39;49m [1m[36mstatic[0m[39;49m [32mvoid[39;49m [1m[34mmain[0m[39;49m([32mString[39;49m[] [33margs[39;49m) {[K
+      System.out.println([32m"Hello, "[39;49margs[0]);[K
+  }[K
+}[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[7m-UU-:----F1  [0m[39;49m[27m[7m[1mHello.java  [0m[39;49m[27m[7m   All L1    [0m[39;49m[27m[7mGit:master[0m[39;49m[27m[7m  (Java/l Abbrev) -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[39;49m[27m
+[A[2d[?12l[?25h[?12;25h[72d[K[2d[1@[71;6H[?25l[7m**[0m[39;49m[27m[2;2H[?12l[?25h[?12;25h[1P[C[C[C[C[C[C		[C[C[C[C[C[71;34H[?25l[7m2[0m[39;49m[27m[H
+
+[?12l[?25h[?12;25h[71;34H[?25l[7m3[0m[39;49m[27m[4;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[71;34H[?25l[7m4[0m[39;49m[27m[5;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[71;34H[?25l[7m5[0m[39;49m[27m[6;1H[?12l[?25h[?12;25h[C[C[C[C[C[C		[C[C[C[C[C[C		[C[C[C[C[C[72;1H[?25lAuto-saving...[6;22H[?12l[?25h[?12;25h[72;15H[?25ldone[6;22H[?12l[?25h[?12;25h[72;1H[K[6;23H		[C[C[C[C[C[C		[C[C[?25l[1@+[?12l[?25h[?12;25h[72;1H[?25lSaving file /home/olearyc4/csci241/lab-1-olearyc4/src/main/java/lab1/Hello.java...[6;36H[?12l[?25h[?12;25h[72;1H[?25lWrote /home/olearyc4/csci241/lab-1-olearyc4/src/main/java/lab1/Hello.java[K[6;36H[?12l[?25h[?12;25h[71;6H[?25l[7m--[0m[39;49m[27m[6;36H[?12l[?25h[?12;25h[72;1H[K[6;36H[72;1H[K[?2004l[>4m[?1l>[?12l[?25h[?1049l[23;0;0t[39;49molearyc4@linux-07:~/csci241/lab-1-olearyc4$ emacs src/main/java/lab1/Hello.java [13Pgradle run --args="241"
+
+
+[2A[1m<[0;1m-------------> 0% INITIALIZING [14ms][m[38D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [114ms][m[0K[36D[1B[1m> :compileJava[m[0K[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [214ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello, 241
+
+[32;1mBUILD SUCCESSFUL[0;39m in 751ms
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[1A> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25holearyc4@linux-07:~/csci241/lab-1-olearyc4$ git add src/main/java/lab1/hE[K[KHello.java 
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ h[Kgit commit -m "HH[Kello now prints command line arg"
+[master 0720efd] Hello now prints command line arg
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ git push
+Username for 'https://github.com': olearyc4
+Password for 'https://olearyc4@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 485 bytes | 242.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/csci241-20s/lab-1-olearyc4
+   720ef20..0720efd  master -> master
+olearyc4@linux-07:~/csci241/lab-1-olearyc4$ exit
+exit
+
+Script done on 2020-04-12 14:48:49-0700
